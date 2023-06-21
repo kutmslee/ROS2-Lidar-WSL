@@ -66,3 +66,7 @@ ROS2의 RPLidar 페이지로 간다. -> http://wiki.ros.org/rplidar
 . ~/ros2_humble/install/local_setup.bash 실행하고
 
 ros2 launch rplidar_ros view_rplidar.launch.py 실행한다.
+
+Lidar가 연결된 USB포트는 rplidar.launch.py 에서 변경 가능하다.
+
+moses@DESKTOP-Q1B8HR9:~/ros2_humble/src/rplidar_ros2/launch$ nano rplidar.launch.py
