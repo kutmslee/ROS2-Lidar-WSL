@@ -54,3 +54,12 @@ Lidar의 USB커넥터를 PC에 꽂고 새로 연 PowerShell에서 usbipd wsl lis
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/f1708c2e-89bb-46e7-a6ba-b0066810ae8a)
 
 USB 연결을 끊을 때는 usbipd wsl detach --busid 1-7 명령을 실행한다.
+
+(4) ROS2 실행
+
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/6ace00af-0138-455a-be3d-510c4c3284eb)
+
+먼저 ttyUSB를 확인하고 읽고 쓰기 권한을 부여한다.
+
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b0ad2b9b-e545-4700-8b46-11b3fb8dff41)
+
