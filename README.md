@@ -57,9 +57,12 @@ USB 연결을 끊을 때는 usbipd wsl detach --busid 1-7 명령을 실행한다
 
 (4) ROS2 실행
 
-![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/6ace00af-0138-455a-be3d-510c4c3284eb)
+ROS2의 RPLidar 페이지로 간다. -> http://wiki.ros.org/rplidar
 
 먼저 ttyUSB를 확인하고 읽고 쓰기 권한을 부여한다.
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b0ad2b9b-e545-4700-8b46-11b3fb8dff41)
 
+. ~/ros2_humble/install/local_setup.bash 실행하고
+
+ros2 launch rplidar_ros view_rplidar.launch.py 실행한다.
