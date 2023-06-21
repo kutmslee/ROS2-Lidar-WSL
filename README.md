@@ -45,7 +45,7 @@ Lidar의 USB커넥터를 PC에 꽂고 새로 연 PowerShell에서 usbipd wsl lis
 
 여기서, "1-7    10c4:ea60  Silicon Labs CP210x USB to UART Bridge(COM6)" 이 Lidar가 연결된 USB 포트이다.
 
- PowerShell에 usbipd wsl attach --busid 1-7 명령을 실행해서 wsl에 USB를 연결한다.
+ PowerShell에 usbipd wsl attach --busid 1-7 명령을 실행해서 wsl에 USB를 연결한다.(이때 꼭 다른 PowerShell에서 wsl이 실행되고 있어야 한다.)
  
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/7390094a-5081-4611-853e-be5ccbe3df2f)
 
