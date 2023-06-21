@@ -43,4 +43,14 @@ Lidar의 USB커넥터를 PC에 꽂고 새로 연 PowerShell에서 usbipd wsl lis
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b063c09b-e2ea-4a47-9ef4-945da546ccc6)
 
+여기서, "1-7    10c4:ea60  Silicon Labs CP210x USB to UART Bridge(COM6)" 이 Lidar가 연결된 USB 포트이다.
 
+ PowerShell에 usbipd wsl attach --busid 1-7 명령을 실행해서 wsl에 USB를 연결한다.
+ 
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/7390094a-5081-4611-853e-be5ccbe3df2f)
+
+먼저 열었던 PowerShell의 wsl 창에서 lsusb 명령을 실행하여 가상 linux에서 usb 장치가 보이는지 확인한다.
+
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/f1708c2e-89bb-46e7-a6ba-b0066810ae8a)
+
+USB 연결을 끊을 때는 usbipd wsl detach --busid 1-7 명령을 실행한다.
