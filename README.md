@@ -6,8 +6,10 @@ https://learn.microsoft.com/ko-kr/windows/package-manager/winget/
 (2) USB/IP 설치
 구글에서 usbipd로 검색
 https://learn.microsoft.com/ko-kr/windows/wsl/connect-usb
+
 Windows PowerShell(관리자) 실행
-이부분에서 URL 복사해서
+
+페이지 중간쯤 있는 참고 부분에서 URL 복사해서
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/a213569b-990c-49cd-8c24-aa112199b299)
 
