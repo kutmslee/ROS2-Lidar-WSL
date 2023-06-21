@@ -2,6 +2,7 @@
 (1) WSL 설치
 
 (2) winget 없으면 설치
+
 구글에서 winget 검색
 
 https://learn.microsoft.com/ko-kr/windows/package-manager/winget/
