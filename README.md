@@ -49,6 +49,8 @@ Lidar의 USB커넥터를 PC에 꽂고 새로 연 PowerShell에서 usbipd wsl lis
  
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/7390094a-5081-4611-853e-be5ccbe3df2f)
 
+이렇게 해 놓고 이 창을 닫지 않는다.
+
 먼저 열었던 PowerShell의 wsl 창에서 lsusb 명령을 실행하여 가상 linux에서 usb 장치가 보이는지 확인한다.
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/f1708c2e-89bb-46e7-a6ba-b0066810ae8a)
