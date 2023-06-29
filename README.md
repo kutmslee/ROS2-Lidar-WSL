@@ -73,3 +73,22 @@ Lidar가 연결된 USB포트는 rplidar.launch.py(정확한 위치는 moses@DESK
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/3a83031c-ad2d-4619-9116-846c0ffe7c38)
 
+~$ ros2 topic list
+
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/fb046306-4c60-432a-bd56-571865619b04)
+
+~$ ros2 topic list -t
+
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/140beca2-d557-4065-8c84-88ebb08a3749)
+
+~$ ros2 interface show sensor_msgs/msg/LaserScan
+
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b1ac2456-8867-4d88-a66a-0a83b69dc5a9)
+
+~$ ros2 topic echo /scan  이렇게 하면 거리를 m 단위로 볼 수 있다.
+
+![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b9f0655f-3f4a-4131-9d2f-ab752af3d83e)
+
+
+
+
