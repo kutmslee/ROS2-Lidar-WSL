@@ -65,9 +65,9 @@ ROS2의 RPLidar 페이지로 간다. -> http://wiki.ros.org/rplidar
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b0ad2b9b-e545-4700-8b46-11b3fb8dff41)
 
-. ~/ros2_humble/install/local_setup.bash 실행하고 (여기서, .은 소싱 source 이다.)
+. ~/ros2_humble/install/local_setup.bash 실행하고 (여기서, .은 소싱 source 이다.) 소싱한 다음에 echo $PATH 해 보면 ros2 관련 경로가 다 들어가 있는 걸 볼 수 있다.
 
-ros2 launch rplidar_ros view_rplidar.launch.py 실행한다.
+ros2 launch rplidar_ros view_rplidar.launch.py 실행한다. (여기서, ros2는 /home/moses/ros2_humble/install/ros2cli/bin/ros2 파일이다.)
 
 Lidar가 연결된 USB포트는 rplidar.launch.py(정확한 위치는 moses@DESKTOP-Q1B8HR9:~/ros2_humble/src/rplidar_ros2/launch$ nano rplidar.launch.py) 에서 변경 가능하다.
 
