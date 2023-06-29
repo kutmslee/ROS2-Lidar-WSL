@@ -85,7 +85,7 @@ Lidar가 연결된 USB포트는 rplidar.launch.py(정확한 위치는 moses@DESK
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b1ac2456-8867-4d88-a66a-0a83b69dc5a9)
 
-~$ ros2 topic echo /scan  이렇게 하면 거리를 m 단위로 볼 수 있다.
+~$ ros2 topic echo /scan  이렇게 하면 거리를 m 단위로 볼 수 있다. rviz 안 켜고 ros2 run rplidar_ros rplidar_composition 를 실행해 놓고 해도 된다.
 
 ![image](https://github.com/kutmslee/ROS2-Lidar-WSL/assets/38107813/b9f0655f-3f4a-4131-9d2f-ab752af3d83e)
 
